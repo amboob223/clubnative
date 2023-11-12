@@ -1,0 +1,22 @@
+* we had to update the node version to get it to work 
+* when putting up an image use the image componenent from react native 
+* and when using an image from the internedt we can use the url poprtey of the image component and when its from a local file we can use 
+
+you can have diffrent values
+we can put major components in its own seperate file
+we use android studio for the emulator and to connect
+I think our internet has to be on the same wifi for it to work
+
+nor de vex jus do am lek so 
+fus dem por  sangre bi 
+daxte def oficcaul ezitigel @ superior
+
+we use textinput componenet to get tthe form 
+
+
+//when it start trippin run these commands 
+    -curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    
+
+    -nvm install node
+

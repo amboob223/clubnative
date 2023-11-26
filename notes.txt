@@ -1,0 +1,55 @@
+-in this version of the club link we wuill introduce the mapbox shit and the auth and a get request to get the data back 
+- I want a form component a profile part that will show the pic of the club section and a map on how to get there from a map picture and the graph of available sections using chart.js
+-we going to need chart.js
+
+you want to use a different file as the entry point, such as index.js, you can make some adjustments in the configuration files. Here's a general outline of what you can do:
+
+Rename the Entry File:
+Rename App.js to index.js (or your preferred filename) in the root of your project.
+
+Update app.json:
+Open the app.json file in the root of your project and look for the "expo" section. Make sure the "entryPoint" field points to your new entry file:
+
+json
+Copy code
+{
+  "expo": {
+    "entryPoint": "./index.js",
+    // other configuration...
+  }
+}
+Update package.json:
+Open the package.json file in the root of your project and look for the "main" field. Update it to point to your new entry file:
+
+json
+Copy code
+{
+  "main": "./index.js",
+  // other configuration...
+}
+Update index.js Imports:
+If your new entry file (index.js) imports any components from the Expo package, make sure to update the import paths accordingly.
+
+After making these changes, when you run your Expo project using the expo start command, it should load the application using your new entry file (index.js).
+
+Keep in mind that while this can be done, it's generally a good idea to stick to the default conventions unless you have a specific reason to change them. It makes it easier for other developers (or even yourself in the future) to understand and work on the code, as they'll expect the entry point to be named App.js by convention.
+
+okay today we did havf of the functionaluty for this app and this will be the second app we will build one or two more rarley looking ta methods and we will write notes for each line before moving to soliidty i want to start by mon or tues 
+
+SAt 
+  - finish club link again but this time mobile
+      -clubbers component 
+      -rendering photos 
+      - and the table
+      -and graph 
+      - and api to mapbox
+      -and auth
+sun 
+  - style club link and the dating app 
+mon
+    -RE DO  2KEYCAT
+tues  
+    -LAST DAY OF two key cat 
+wednes start solidity 
+
+the button goess inside the form view

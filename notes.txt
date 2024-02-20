@@ -53,3 +53,10 @@ tues
 wednes start solidity 
 
 the button goess inside the form view
+
+sun - 
+
+add tables
+ and grpahs
+  and map 
+  api and auth 
